@@ -11,6 +11,11 @@
 	import Footer from "$lib/components/Footer.svelte";
 </script>
 
+<svelte:head>
+	<title>Lassie - Accelerate Dental Practice Cash Flow</title>
+	<meta name="description" content="Automate insurance claim posting and payment reconciliation for dental practices. Free up 15 hours per week and get paid up to 4x faster with Lassie." />
+</svelte:head>
+
 <main class="min-h-screen bg-[#F9F9F9]">
 	<Navbar />
 	<Hero />
